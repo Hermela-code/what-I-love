@@ -183,3 +183,28 @@
   
  
   
+ /* Table Section */
+  .table-section {
+    padding: 20px;
+    background: #222;
+    margin-top: 20px;
+  }
+  .table-section h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #00b4db;
+    margin-bottom: 10px;
+  }
+  .table-section table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+  }
+  .table-section th,
+  .table-section td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: center;
+  }
+  .table-section th {
+    background: #333;
+  }
