@@ -208,3 +208,40 @@
   .table-section th {
     background: #333;
   }
+/* About Section */
+  .about-section {
+    padding: 20px;
+    background: #222;
+    color: #ddd;
+  }
+  .about-section h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #00b4db;
+  }
+  .about-section h3 {
+    color: #fff;
+    margin-top: 15px;
+  }
+  .about-section ul,
+  .about-section ol {
+    margin: 10px 20px;
+    padding-left: 20px;
+  }
+  .about-section li {
+    margin: 5px 0;
+  }
+  .about-section a {
+    color: #00b4db;
+  }
+  .about-section a:hover {
+    text-decoration: underline;
+  }
+  .back-to-top {
+    display: inline-block;
+    margin-top: 20px;
+    color: #00b4db;
+    text-decoration: none;
+  }
+  .back-to-top::before {
+    content: '⬆ ';
+  }
