@@ -245,3 +245,81 @@
   .back-to-top::before {
     content: '⬆ ';
   }
+  /* Gallery Section */
+  .gallery-section {
+    padding: 20px;
+  }
+  .gallery-section h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #00b4db;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .grid-gallery img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #444;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  .grid-gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+/* Contact Section */
+  .contact-section {
+    padding: 20px;
+    background: #222;
+  }
+  .contact-section h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #00b4db;
+    margin-bottom: 20px;
+  }
+  .contact-section label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #eee;
+  }
+  .contact-section input,
+  .contact-section textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background: #333;
+    color: #eee;
+  }
+
+.contact-section input:focus,
+  .contact-section textarea:focus {
+    outline: none;
+    border-color: #00b4db;
+  }
+  .contact-section fieldset {
+    border: 1px solid #555;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .contact-section legend {
+    color: #00b4db;
+  }
+  .contact-section button {
+    background: #00b4db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.2s;
+  }
+  .contact-section button:hover {
+    transform: scale(1.05);
+  }
