@@ -323,3 +323,33 @@
   .contact-section button:hover {
     transform: scale(1.05);
   }
+ /* Responsive Design */
+  @media screen and (max-width: 1024px) {
+    .features .card {
+      width: 45%;
+    }
+    .grid-gallery {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media screen and (max-width: 600px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+    nav a {
+      display: block;
+      margin: 5px 0;
+    }
+    .features .card {
+      width: 90%;
+      margin: 10px auto;
+    }
+    .grid-gallery {
+      grid-template-columns: 1fr;
+    }
+    .hero {
+      height: 300px;
+    }
+  }
+
