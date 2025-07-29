@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hermela Girma | Nature Photography Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="main-nav">
+            <div class="nav-brand">
+                <i class="fas fa-camera"></i>
+                <span>Hermela's Lens</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index2.html">Home</a></li>
+                <li><a href="#" class="active">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="gallery-main">
+        <section class="gallery-intro">
+            <h1>Nature Photography Collection</h1>
+            <p>Explore the beauty of nature through my lens. Each photograph captures a unique moment in time.</p>
+            <div class="category-filter">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Flora</button>
+                <button class="filter-btn">Fauna</button>
+                <button class="filter-btn">Landscapes</button>
+            </div>
+        </section>
+
+        <section class="photo-grid">
+            <div class="photo-item">
+                <img src="images/photo1.jpg" alt="Nature photo 1" class="photo-img">
+                <div class="photo-overlay">
+                    <h3>Photo Title 1</h3>
+                    <p>Location, Date</p>
+                </div>
+            </div>
+            <div class="photo-item">
+                <img src="images/photo2.jpg" alt="Nature photo 2" class="photo-img">
+                <div class="photo-overlay">
+                    <h3>Photo Title 2</h3>
+                    <p>Location, Date</p>
+                </div>
+            </div>
+            <div class="photo-item">
+                <img src="images/photo3.jpg" alt="Nature photo 3" class="photo-img">
+                <div class="photo-overlay">
+                    <h3>Photo Title 3</h3>
+                    <p>Location, Date</p>
+                </div>
+            </div>
+            <div class="photo-item">
+                <img src="images/photo4.jpg" alt="Nature photo 4" class="photo-img">
+                <div class="photo-overlay">
+                    <h3>Photo Title 4</h3>
+                    <p>Location, Date</p>
+                </div>
+            </div>
+            <div class="photo-item">
+                <img src="images/photo6.jpg" alt="Nature photo 5" class="photo-img">
+                <div class="photo-overlay">
+                    <h3>Photo Title 5</h3>
+                    <p>Location, Date</p>
+                </div>
+            </div>
+            <div class="photo-item">
+                <img src="images/photo7.jpg" alt="Nature photo 6" class="photo-img">
+                <div class="photo-overlay">
+                    <h3>Photo Title 6</h3>
+                    <p>Location, Date</p>
+                </div>
+            </div>
+            <div class="photo-item">
+                <img src="images/photo8.jpg" alt="Nature photo 7" class="photo-img">
+                <div class="photo-overlay">
+                    <h3>Photo Title 7</h3>
+                    <p>Location, Date</p>
+                </div>
+            </div>
+            <div class="photo-item">
+                <img src="images/photo9.jpg" alt="Nature photo 8" class="photo-img">
+                <div class="photo-overlay">
+                    <h3>Photo Title 8</h3>
+                    <p>Location, Date</p>
+                </div>
+            </div>
+            <div class="photo-item">
+                <img src="images/photo10.jpg" alt="Nature photo 9" class="photo-img">
+                <div class="photo-overlay">
+                    <h3>Photo Title 9</h3>
+                    <p>Location, Date</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h3>About My Photography</h3>
+                <p>Capturing the beauty of nature in Ethiopia and beyond.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Connect With Me</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-unsplash"></i> Unsplash</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="year"></span> Hermela Girma Nature Photography. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
