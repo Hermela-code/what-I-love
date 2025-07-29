@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Hermela | Nature Photography</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="main-nav">
+            <div class="nav-brand">
+                <i class="fas fa-camera"></i>
+                <span>Hermela's Lens</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#" class="active">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="about-main">
+        <section class="about-section">
+            <div class="about-image">
+                <img src="photographer.jpg" alt="Hermela Girma taking photos in nature">
+            </div>
+            <div class="about-content">
+                <h1>My Photography Journey</h1>
+                <p class="intro">Hello, I'm Hermela Girma. My photography journey began unexpectedly about two years ago...</p>
+                
+                <div class="story">
+                    <p>I remember it clearly  during my first year of university, the night before a final exam, I found myself taking random pictures of nature instead of studying. That spontaneous moment sparked something in me.</p>
+                    
+                    <p>Since then, I've been capturing nature whenever I find interesting subjects or have free time. What started as an unplanned hobby has become a passion. I don't overthink it  when I see beauty in nature, I simply capture it.</p>
+                    
+                    <p>One of my dreams is to photograph the night sky with sharp, clear details. While I haven't achieved that yet, I'm determined to keep trying until I get that perfect shot.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="photography-interests">
+            <h2>What Inspires My Lens</h2>
+            <div class="interests-container">
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <h3>Animals</h3>
+                    <p>Capturing wildlife in their natural habitats, especially twin animals or unique creatures.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Trees & Plants</h3>
+                    <p>The textures and patterns in bark, leaves, and especially water droplets on foliage.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Water Elements</h3>
+                    <p>From serene lakes to dramatic waterfalls, and those perfect dewdrops I'm still chasing.</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h3>Night Sky</h3>
+                    <p>My current challenge - capturing the stars and celestial beauty with crisp clarity.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="future-goals">
+            <h2>My Photography Goals</h2>
+            <ul class="goals-list">
+                <li class="goal-item">
+                    <div class="goal-number">1</div>
+                    <p>Master night photography and capture the Milky Way</p>
+                </li>
+                <li class="goal-item">
+                    <div class="goal-number">2</div>
+                    <p>Create a series of water droplet macro photographs</p>
+                </li>
+                <li class="goal-item">
+                    <div class="goal-number">3</div>
+                    <p>Develop a distinctive style in nature photography</p>
+                </li>
+                
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h3>About My Photography</h3>
+                <p>Capturing the beauty of nature in Ethiopia and beyond.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Connect With Me</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-unsplash"></i> Unsplash</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="year"></span> Hermela Girma Nature Photography. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
